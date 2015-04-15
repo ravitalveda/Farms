@@ -18,7 +18,7 @@
 
             <!-- Header -->
             <header id="header" class="alt">
-                <h1><a href="index.html">Harekrishna Farms</a></h1>
+                <h1><a href="Home.aspx">Harekrishna Farms</a></h1>
                 <nav id="nav">
                     <ul>
                         <li class="special">
@@ -26,10 +26,11 @@
                             <div id="menu">
                                 <ul>
                                     <li><a href="Home.aspx">Home</a></li>
-                                    <li><a href="generic.aspx">Generic</a></li>
+                                    <li><a href="Generic.aspx">Generic</a></li>
                                     <li><a href="elements.aspx">Elements</a></li>
-                                    <li><a href="#">Events</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="Gallery.aspx">Gallery</a></li>
+                                    <li><a href="Festivals.aspx">Festivals</a></li>
+                                    <li><a href="Contact.aspx">Contact</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -42,12 +43,12 @@
                 <div class="inner">
                     <h2>Harekrishna Farms</h2>
                     <p>
-                        Agriculture..<br />
-                        Real Culture...<br /><br />
+                        Agriculture.<br />
+                        Real Culture!<br /><br />
                         - <a href="#">Simheswara Dasa JPS</a>.
                     </p>
                     <ul class="actions">
-                        <li><a href="#" class="button special">Explore</a></li>
+                        <li><a href="contact.aspx" class="button special">Contact</a></li>
                     </ul>
                 </div>
                 <a href="#one" class="more scrolly">Discover</a>
@@ -167,8 +168,8 @@ Thank you very much Simheswara, Gokul, Gopesa and Muralid and all the others smi
             <!-- Footer -->
                <footer id="footer">
                 <ul class="icons">
-                     <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                      <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                     <li><a href="https://www.facebook.com/pages/New-Godruma-Dhama-Lanchang/241251546035930?fref=ts" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                      <li><a href="https://www.facebook.com/pages/New-Godruma-Dhama-Lanchang/241251546035930?fref=ts" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Harekrishna Farms</li>

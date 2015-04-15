@@ -17,11 +17,11 @@
     <form runat="server">
 
         <!-- Page Wrapper -->
-        <div id="page-wrapper" style="margin:auto; width:90%;">
+        <div id="page-wrapper" style="margin: auto; width: 90%;">
 
             <!-- Header -->
             <header id="header">
-                <h1><a href="index.html">New Godhruma Dhama</a></h1>
+                <h1><a href="Home.aspx">New Godhruma Dhama</a></h1>
                 <nav id="nav">
                     <ul>
                         <li class="special">
@@ -29,7 +29,7 @@
                             <div id="menu">
                                 <ul>
                                     <li><a href="Home.aspx">Home</a></li>
-                                    <li><a href="Generic.aspx">Generic</a></li>
+                                    <li><a href="Generic.aspx">Foriegners</a></li>
                                     <li><a href="elements.aspx">Elements</a></li>
                                     <li><a href="Gallery.aspx">Gallery</a></li>
                                     <li><a href="Festivals.aspx">Festivals</a></li>
@@ -49,8 +49,8 @@
             <!-- Footer -->
             <footer id="footer">
                 <ul class="icons">
-                     <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                      <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                     <li><a href="https://www.facebook.com/pages/New-Godruma-Dhama-Lanchang/241251546035930?fref=ts" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                      <li><a href="https://www.facebook.com/pages/New-Godruma-Dhama-Lanchang/241251546035930?fref=ts" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Harekrishna Farms</li>
