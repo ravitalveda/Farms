@@ -145,6 +145,34 @@
     <Compile Include="Elements.aspx.designer.cs">
       <DependentUpon>Elements.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Festivals.aspx.cs">
+      <DependentUpon>Festivals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Festivals.aspx.designer.cs">
+      <DependentUpon>Festivals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activities.aspx.cs">
+      <DependentUpon>Activities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activities.aspx.designer.cs">
+      <DependentUpon>Activities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -186,26 +214,42 @@
     <Content Include="css\images\arrow.svg" />
     <Content Include="css\images\bars.svg" />
     <Content Include="css\images\close.svg" />
+    <Content Include="css\plusgallery.css" />
     <Content Include="css\style.css" />
+    <Content Include="google.html" />
     <Content Include="Home.aspx" />
     <Content Include="Generic.aspx" />
     <Content Include="elements.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="generic.html" />
+    <Content Include="Images\banner.jpg" />
+    <Content Include="Images\210.png" />
+    <Content Include="Images\80.png" />
+    <Content Include="Images\arrows.gif" />
     <Content Include="Images\banner1.jpg" />
     <Content Include="Images\bullet.png" />
-    <Content Include="Images\banner.jpg" />
-    <Content Include="Images\pic02.jpg" />
+    <Content Include="Images\icons.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\loading-albums.gif" />
+    <Content Include="Images\loading-gallery.gif" />
     <Content Include="Images\pic03.jpg" />
+    <Content Include="Images\pic02.jpg" />
+    <Content Include="Images\pic07.jpg" />
+    <Content Include="Images\pic08.jpg" />
     <Content Include="Images\pic04.jpg" />
     <Content Include="Images\pic05.jpg" />
+    <Content Include="Images\pic01.jpg" />
+    <Content Include="Images\square.gif" />
+    <Content Include="Images\square.png" />
+    <Content Include="Images\zoom-icons.gif" />
     <Content Include="index.html" />
     <Content Include="js\init.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.scrollex.min.js" />
     <Content Include="js\jquery.scrolly.min.js" />
+    <Content Include="js\plusgallery.js" />
     <Content Include="js\skel.min.js" />
-    <Content Include="LICENSE.txt" />
     <Content Include="packages\AspNet.ScriptManager.jQuery.1.8.2\lib\net40\AspNet.ScriptManager.jQuery.dll" />
     <Content Include="packages\AspNet.ScriptManager.jQuery.1.8.2\lib\net45\AspNet.ScriptManager.jQuery.dll" />
     <Content Include="packages\AspNet.ScriptManager.jQuery.UI.Combined.1.8.24\lib\net40\AspNet.ScriptManager.jQuery.UI.Combined.dll" />
@@ -215,7 +259,9 @@
     <Content Include="packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.dll" />
     <Content Include="packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.xml" />
     <Content Include="packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.Core.dll" />
-    <Content Include="packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.Core.xml" />
+    <Content Include="packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.Core.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.dll" />
     <Content Include="packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.xml" />
     <Content Include="packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll" />
@@ -243,6 +289,10 @@
     <Content Include="packages\EntityFramework.5.0.0\tools\EntityFramework.PowerShell.Utility.dll" />
     <Content Include="packages\EntityFramework.5.0.0\tools\migrate.exe" />
     <Content Include="Elements.aspx" />
+    <Content Include="Festivals.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Activities.aspx" />
+    <Content Include="Gallery.aspx" />
     <None Include="packages\jQuery.1.8.2\Content\Scripts\jquery-1.8.2-vsdoc.js" />
     <Content Include="packages\jQuery.1.8.2\Content\Scripts\jquery-1.8.2.js" />
     <Content Include="packages\jQuery.1.8.2\Content\Scripts\jquery-1.8.2.min.js" />
@@ -344,7 +394,6 @@
     <Content Include="packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
     <Content Include="packages\WebGrease.1.1.0\lib\WebGrease.dll" />
     <Content Include="packages\WebGrease.1.1.0\tools\WG.exe" />
-    <Content Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Antlr3.Runtime.dll.refresh" />

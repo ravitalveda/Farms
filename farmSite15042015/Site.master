@@ -4,7 +4,7 @@
 
 <html>
 <head>
-    <title>Generic - Spectral by HTML5 UP</title>
+    <title>New Godhruma Dhama</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
@@ -17,11 +17,11 @@
     <form runat="server">
 
         <!-- Page Wrapper -->
-        <div id="page-wrapper">
+        <div id="page-wrapper" style="margin:auto; width:90%;">
 
             <!-- Header -->
             <header id="header">
-                <h1><a href="index.html">Spectral</a></h1>
+                <h1><a href="index.html">New Godhruma Dhama</a></h1>
                 <nav id="nav">
                     <ul>
                         <li class="special">
@@ -31,8 +31,9 @@
                                     <li><a href="Home.aspx">Home</a></li>
                                     <li><a href="Generic.aspx">Generic</a></li>
                                     <li><a href="elements.aspx">Elements</a></li>
-                                    <li><a href="#">Sign Up</a></li>
-                                    <li><a href="#">Log In</a></li>
+                                    <li><a href="Gallery.aspx">Gallery</a></li>
+                                    <li><a href="Festivals.aspx">Festivals</a></li>
+                                    <li><a href="Contact.aspx">Contact</a></li>
                                 </ul>
                             </div>
                         </li>
