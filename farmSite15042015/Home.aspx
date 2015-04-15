@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,16 +18,16 @@
 
             <!-- Header -->
             <header id="header" class="alt">
-                <h1><a href="index.html">Spectral</a></h1>
+                <h1><a href="index.html">Harekrishna Farms</a></h1>
                 <nav id="nav">
                     <ul>
                         <li class="special">
                             <a href="#" class="menuToggle"><span>Menu</span></a>
                             <div id="menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="generic.html">Generic</a></li>
-                                    <li><a href="elements.html">Elements</a></li>
+                                    <li><a href="Home.aspx">Home</a></li>
+                                    <li><a href="generic.aspx">Generic</a></li>
+                                    <li><a href="elements.aspx">Elements</a></li>
                                     <li><a href="#">Sign Up</a></li>
                                     <li><a href="#">Log In</a></li>
                                 </ul>
@@ -40,17 +40,17 @@
             <!-- Banner -->
             <section id="banner">
                 <div class="inner">
-                    <h2>Spectral</h2>
+                    <h2>Harekrishna Farms</h2>
                     <p>
-                        Another fine responsive<br />
-                        site template freebie<br />
-                        crafted by <a href="http://html5up.net">HTML5 UP</a>.
+                        Agriculture..<br />
+                        Real Culture...<br /><br />
+                        - <a href="#">Simheswara Dasa JPS</a>.
                     </p>
                     <ul class="actions">
-                        <li><a href="#" class="button special">Activate</a></li>
+                        <li><a href="#" class="button special">Explore</a></li>
                     </ul>
                 </div>
-                <a href="#one" class="more scrolly">Learn More</a>
+                <a href="#one" class="more scrolly">Discover</a>
             </section>
 
             <!-- One -->
@@ -157,17 +157,14 @@
             </section>
 
             <!-- Footer -->
-            <footer id="footer">
+               <footer id="footer">
                 <ul class="icons">
-                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                    <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                     <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                      <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
                 </ul>
                 <ul class="copyright">
-                    <li>&copy; Untitled</li>
-                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>&copy; Harekrishna Farms</li>
+                    <li>Design: <a href="http://harekrishnafarms.my">Iskcon Malaysia</a></li>
                 </ul>
             </footer>
 

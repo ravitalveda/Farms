@@ -125,18 +125,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default2.aspx.cs">
-      <DependentUpon>Default2.aspx</DependentUpon>
+    <Compile Include="Generic.aspx.cs">
+      <DependentUpon>Generic.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.master.cs">
       <DependentUpon>Site.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Elements.aspx.cs">
+      <DependentUpon>Elements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Elements.aspx.designer.cs">
+      <DependentUpon>Elements.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
@@ -180,26 +187,14 @@
     <Content Include="css\images\bars.svg" />
     <Content Include="css\images\close.svg" />
     <Content Include="css\style.css" />
-    <Content Include="Default.aspx" />
-    <Content Include="Default2.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Generic.aspx" />
     <Content Include="elements.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="generic.html" />
-    <Content Include="Images\accent.png" />
-    <Content Include="Images\banner.jpg" />
+    <Content Include="Images\banner1.jpg" />
     <Content Include="Images\bullet.png" />
-    <Content Include="Images\heroAccent.png" />
-    <Content Include="Images\orderedList0.png" />
-    <Content Include="Images\orderedList1.png" />
-    <Content Include="Images\orderedList2.png" />
-    <Content Include="Images\orderedList3.png" />
-    <Content Include="Images\orderedList4.png" />
-    <Content Include="Images\orderedList5.png" />
-    <Content Include="Images\orderedList6.png" />
-    <Content Include="Images\orderedList7.png" />
-    <Content Include="Images\orderedList8.png" />
-    <Content Include="Images\orderedList9.png" />
-    <Content Include="Images\pic01.jpg" />
+    <Content Include="Images\banner.jpg" />
     <Content Include="Images\pic02.jpg" />
     <Content Include="Images\pic03.jpg" />
     <Content Include="Images\pic04.jpg" />
@@ -247,6 +242,7 @@
     <Content Include="packages\EntityFramework.5.0.0\tools\EntityFramework.PowerShell.dll" />
     <Content Include="packages\EntityFramework.5.0.0\tools\EntityFramework.PowerShell.Utility.dll" />
     <Content Include="packages\EntityFramework.5.0.0\tools\migrate.exe" />
+    <Content Include="Elements.aspx" />
     <None Include="packages\jQuery.1.8.2\Content\Scripts\jquery-1.8.2-vsdoc.js" />
     <Content Include="packages\jQuery.1.8.2\Content\Scripts\jquery-1.8.2.js" />
     <Content Include="packages\jQuery.1.8.2\Content\Scripts\jquery-1.8.2.min.js" />
