@@ -1,6 +1,15 @@
 # Hare Krishna Farms Website
 
+[![HTML5](https://img.shields.io/badge/Markup-HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/Styles-CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![C%23](https://img.shields.io/badge/Code-C%23-512BD4?logo=dotnet&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
+[![ASP.NET Web Forms](https://img.shields.io/badge/Framework-ASP.NET%20Web%20Forms-512BD4?logo=dotnet&logoColor=white)](https://learn.microsoft.com/aspnet/web-forms/)
+[![.NET Framework 4.5](https://img.shields.io/badge/Runtime-.NET%20Framework%204.5-512BD4?logo=dotnet&logoColor=white)](https://learn.microsoft.com/dotnet/framework/)
+
 A charity website for New Godhruma Dhama, a farm community in Lanchang, Malaysia. The site introduces the farm to international visitors and students interested in experiencing community life and learning about natural and organic agriculture.
+
+**Author:** [ravitalveda](https://github.com/ravitalveda) · **First published:** 2015
 
 ## About the site
 
